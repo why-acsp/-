@@ -1,0 +1,27 @@
+packagecom.example.myapplication;   //메인 액티비티.자바
+
+importandroid.content.Intent;
+importandroid.support.v7.app.AppCompatActivity;
+importandroid.os.Bundle;
+importandroid.view.View;
+importandroid.widget.Button;
+publicclassMainActivityextendsAppCompatActivity{
+
+@Override
+protectedvoidonCreate(BundlesavedInstanceState){
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_main);
+
+ButtonstartButton=(Button)findViewById(R.id.textview2);
+startButton.setOnClickListener(newView.OnClickListener(){
+@Override
+publicvoidonClick(Viewview){
+Intentintent=newIntent(getApplicationContext(),mainmenu.class);
+startActivity(intent);
+
+
+
+}
+});
+}
+}
