@@ -1,0 +1,9 @@
+<resources>( 스트링 자원틔)
+<stringname="appname">experienceNOTE</string>
+<stringname="startmenu">시작하기</string>
+<stringname="circle_button">원</string>
+<stringname="point_button">점</string>
+<stringname="save_button1">저장1</string>
+<stringname="save_button2">저장2</string>
+<stringname="save_button3">저장3</string>
+</resources>
